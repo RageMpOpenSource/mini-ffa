@@ -1,0 +1,10 @@
+{
+    "name": "Construction 1",
+    "spawnPoints": [
+        {"x": -161.34, "y": -988.08, "z": 256.71},
+        {"x": -160.34, "y": -987.08, "z": 256.71}
+    ],
+    "weapons": [
+        "weapon_hammer", "weapon_pipebomb", "weapon_pistol", "weapon_minismg"
+    ]
+}
