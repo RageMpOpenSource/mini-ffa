@@ -12,6 +12,8 @@ tdm.db = require('./simpledb.js');
 tdm.games = require('./games.js');
 require('./timer.js');
 tdm.arenas = require('./arenas.js');
+require('./leaderboard.js');
+require('./chat.js');
 
 (async () => {
     console.time('Server loaded')

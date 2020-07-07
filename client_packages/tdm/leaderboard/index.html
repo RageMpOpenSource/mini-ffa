@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .container {
+            max-width: 800px;
+        }
+        .card {
+            margin-top: 20%;
+            border: none;
+        }
+        .card-body{
+            padding: 0px;
+            max-height: 500px;
+            overflow-y: scroll;
+        }
+        .table {
+            margin-bottom: 0px;
+        }
+        .card-header {
+            background-color: #2f3640;
+            color: #dcdde1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header text-center">
+                Leaderboard
+            </div>
+            <div class="card-body">
+                <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Kills</th>
+                      </tr>
+                    </thead>
+                    <tbody id="player-table"></tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

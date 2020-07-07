@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+/*
+    Palette: https://flatuicolors.com/palette/gb
+*/
+
+html body {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Nunito', sans-serif;
+}
+
+body .container {
+    margin-top:13%;
+    max-width: 800px;
+}
+
+.card-body {
+    max-height:300px;
+    overflow-y:scroll;
+}
+
+body .card {
+    border: none;
+}
+
+body .close {
+    color: #dcdcdc;
+    text-shadow:none;
+}
+
+body .card-header, body .card-footer {
+    background-color: #2f3640;
+    color: #dcdde1;
+}

@@ -2,9 +2,9 @@ let uiEnabled = true;
 let time = 300;
 let kills = 0, deaths = 0;
 
+
 mp.events.addDataHandler("gameKills", (entity, value, oldValue) => {
     if(entity === mp.players.local) kills = value;
-    
 });
 
 mp.events.addDataHandler("gameDeaths", (entity, value, oldValue) => {
